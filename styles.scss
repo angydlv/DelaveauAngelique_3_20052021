@@ -1,0 +1,27 @@
+html {
+	width: 100%;
+    body {
+        font-family: "Roboto", sans-serif;
+        margin: auto;
+        max-width: 100%;
+    }
+    a {
+        text-decoration: none;
+        a:link {
+            color: black;
+        }
+        
+        a:visited {
+            color: black;
+        }
+    }
+}
+
+/* Header */
+
+header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
